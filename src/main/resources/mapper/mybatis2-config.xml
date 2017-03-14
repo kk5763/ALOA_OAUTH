@@ -5,7 +5,7 @@
         SELECT * FROM user WHERE username = #{username}
     </select>
     
-    <select id="readAuthority" parameterType="java.lang.String" resultType="com.aloa.home.user.User">
+    <select id="readAuthority" parameterType="java.lang.String" resultType="java.lang.String">
     	SELECT authority_name FROM authority WHERE username = #{username}
     </select>
 </mapper>

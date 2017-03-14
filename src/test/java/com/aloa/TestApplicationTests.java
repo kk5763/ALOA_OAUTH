@@ -25,7 +25,7 @@ public class TestApplicationTests {
 	@Test
 	public void readUserTest(){
 		User user = userMapper.readUser("ko");
-		assertThat("koko", is(user.getUsername()));
+		assertThat("ko", is(user.getUsername()));
 		assertThat("YCU", is(user.getName()));
 		assertThat("1234", is(user.getPassword()));
 	}
