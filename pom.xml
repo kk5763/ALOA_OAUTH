@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.aloa</groupId>
-	<artifactId>ALOA</artifactId>
+	<artifactId>aa</artifactId>
 	<version>1.2.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -17,7 +17,7 @@
 		<version>1.5.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<!-- ojdbc6 추가 리파지토리. -->
+	<!-- ojdbc6 추�? 리파지?�리. -->
 	<repositories>
         <repository>
             <id>oracle</id>
